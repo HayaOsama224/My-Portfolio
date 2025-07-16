@@ -20,3 +20,4 @@ const Skills = () => {
 }
 
 export default Skills
+// Updated: 2024-06-09

@@ -1,68 +1,67 @@
-# Cleanfolio
+# Portfolio
 
-Cleanfolio is a portfolio template built with React. However, if you prefer a template built with HTML, CSS, and JavaScript, you can check out [Cleanfolio Minimal](https://github.com/rjshkhr/cleanfolio-minimal).
+A clean and minimal portfolio template built with React. Perfect for developers and designers to showcase their projects, skills, and contact information.
 
-## Preview
+## Features
+- Responsive and modern design
+- Easy to customize
+- Sections for About, Projects, Skills, and Contact
+- Smooth scrolling and navigation
+- Theming support
 
-[![Imgur](https://imgur.com/FwDMNEM.gif)](https://rjshkhr.github.io/cleanfolio)
+## Getting Started
 
-[Live Demo](https://rjshkhr.github.io/cleanfolio)
+### Prerequisites
+- Node.js (v12 or higher recommended)
+- npm or yarn
 
-## Instructions
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+   cd portfolio
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Setup
-
-```shell
-git clone https://github.com/rjshkhr/cleanfolio
-cd cleanfolio
+## Project Structure
+```
+portfolio/
+  public/
+  src/
+    components/
+      About/
+      Contact/
+      Footer/
+      Header/
+      Navbar/
+      ProjectContainer/
+      Projects/
+      ScrollToTop/
+      Skills/
+    contexts/
+    App.js
+    index.js
+    portfolio.js
 ```
 
-If you use [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm), execute:
+## Customization
+- Edit `src/portfolio.js` to update your personal information, projects, and skills.
+- Modify styles in the respective CSS files under each component folder.
 
-```shell
-nvm install
-nvm use
-```
-
-Or:
-
-```shell
-fnm install
-fnm use
-```
-
-To install and launch the project, run these commands:
-
-```shell
-yarn
-yarn start
-```
-
-### How to Use
-
-- Open the `public/index.html` file and replace:
-
-`<title>John Smith</title>` with `<title>Your Name</title>`.
-
-- Open the `src/portfolio.js` file and make the necessary changes.
-
-### Deployment
-
-- In the `package.json` file, update:
-
-`"homepage": "https://rjshkhr.github.io/cleanfolio"`
-
-to `"homepage": "https://yourusername.github.io"`.
-
-- Push the changes to your repository.
-
-- To build and deploy, run the following commands:
-
-```shell
-yarn build
-yarn deploy
-```
+## Deployment
+You can deploy this project using Vercel, Netlify, GitHub Pages, or any static site hosting service.
 
 ## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is licensed under the MIT License. 
